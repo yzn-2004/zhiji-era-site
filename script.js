@@ -127,7 +127,7 @@ const courseData = [
     category: "strategy",
     image: "./assets/hero-workshop.jpg",
     teacher: "智基时代战略顾问组",
-    price: "¥699",
+    price: "¥28,999",
     summary: "从机会窗、业务组合到战略解码，搭建持续增长底层逻辑。"
   },
   {
@@ -135,7 +135,7 @@ const courseData = [
     category: "organization",
     image: "./assets/banquet-training.jpg",
     teacher: "组织机制专家",
-    price: "¥899",
+    price: "¥25,999",
     summary: "设计权责利、价值评价、增量分配与动态进退机制。"
   },
   {
@@ -143,7 +143,7 @@ const courseData = [
     category: "ai",
     image: "./assets/keynote-close.jpg",
     teacher: "AI 组织变革顾问",
-    price: "¥799",
+    price: "¥18,999",
     summary: "让管理者掌握 AI 决策、流程智能与组织进化的关键方法。"
   },
   {
@@ -151,7 +151,7 @@ const courseData = [
     category: "organization",
     image: "./assets/culture-classroom.jpg",
     teacher: "文化治理顾问",
-    price: "¥599",
+    price: "¥15,999",
     summary: "从理念提炼到制度嵌入，把文化从口号推进到经营场景。"
   },
   {
@@ -159,7 +159,7 @@ const courseData = [
     category: "state",
     image: "./assets/gov-classroom.jpg",
     teacher: "国企改革顾问组",
-    price: "¥999",
+    price: "¥29,999",
     summary: "围绕五年规划、三项制度改革和干部队伍建设做系统落地。"
   },
   {
@@ -167,7 +167,7 @@ const courseData = [
     category: "leadership",
     image: "./assets/forum-audience.jpg",
     teacher: "干部培养顾问",
-    price: "¥799",
+    price: "¥21,999",
     summary: "以训战结合、岗位历练和动态评价打造核心人才梯队。"
   }
 ];
