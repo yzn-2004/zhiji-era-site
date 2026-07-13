@@ -481,6 +481,8 @@ function drawRadar(values = [42, 44, 40, 36, 45, 43]) {
 function initDiagnosis() {
   drawRadar();
   const form = $("#diagnosis-form");
+  if (!form) return;
+
   const score = $("#score");
   const recommendation = $("#recommendation");
 

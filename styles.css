@@ -504,6 +504,7 @@ button {
 .trait,
 .product-card,
 .course-card,
+.diagnosis-embed,
 .diagnosis-form,
 .diagnosis-result,
 .contact-form,
@@ -851,6 +852,7 @@ button {
   align-items: stretch;
 }
 
+.diagnosis-embed,
 .diagnosis-form,
 .diagnosis-result,
 .contact-form {
@@ -858,6 +860,18 @@ button {
   border: 1px solid var(--line);
   background: var(--paper);
   box-shadow: 0 18px 50px rgba(44, 24, 20, 0.08);
+}
+
+.diagnosis-embed {
+  padding: 0;
+  overflow: hidden;
+  min-height: 1284px;
+}
+
+.diagnosis-embed iframe {
+  display: block;
+  width: 100%;
+  border: 0;
 }
 
 .diagnosis-form,

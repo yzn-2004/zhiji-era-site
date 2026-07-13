@@ -284,52 +284,21 @@
             <h2>企业免费诊断</h2>
           </div>
           <p>
-            将小程序的获客问卷移植为官网交互：3 道核心题生成健康评分、雷达图和产品/课程推荐。
+            填写下方诊断问卷，智基时代顾问将根据企业规模、经营痛点与管理诉求，为您匹配咨询产品与学堂课程。
           </p>
         </div>
 
         <div class="diagnosis-layout">
-          <form class="diagnosis-form reveal" id="diagnosis-form">
-            <label>
-              <span>企业当前规模</span>
-              <select name="scale" required>
-                <option value="">请选择</option>
-                <option value="62">成长型企业 / 300 人以内</option>
-                <option value="76">规模化企业 / 300-2000 人</option>
-                <option value="88">集团化或多业务布局</option>
-              </select>
-            </label>
-            <label>
-              <span>最突出的经营痛点</span>
-              <select name="pain" required>
-                <option value="">请选择</option>
-                <option value="64">增长焦虑与战略不清</option>
-                <option value="72">组织内耗与人才激励不足</option>
-                <option value="82">AI 转型、出海或品牌升级压力</option>
-              </select>
-            </label>
-            <label>
-              <span>优先管理诉求</span>
-              <select name="need" required>
-                <option value="">请选择</option>
-                <option value="68">梳理战略与业务路径</option>
-                <option value="78">搭建机制、文化与干部体系</option>
-                <option value="86">建立数智治理与长期顾问机制</option>
-              </select>
-            </label>
-            <label>
-              <span>手机号</span>
-              <input type="tel" name="phone" placeholder="用于接收诊断报告" required />
-            </label>
-            <button class="btn btn-primary" type="submit">生成诊断报告 <span>→</span></button>
-          </form>
+          <div class="diagnosis-embed reveal">
+            <script src="https://ufackqtn.jsjform.com/f/zMyGQk/embedded.js?background=white&banner=show&inner_redirect=false&height=1284.25"></script>
+          </div>
 
           <div class="diagnosis-result reveal" aria-live="polite">
             <canvas id="radar" width="360" height="360" aria-label="企业健康评分雷达图"></canvas>
             <div>
-              <span class="result-label">企业健康评分</span>
-              <strong id="score">--</strong>
-              <p id="recommendation">完成左侧问卷后，将自动推荐匹配的咨询产品和学堂课程。</p>
+              <span class="result-label">诊断说明</span>
+              <strong id="score">在线提交</strong>
+              <p id="recommendation">提交左侧问卷后，智基时代顾问将结合您的企业情况，输出初步问题清单，并推荐匹配的咨询模块与学堂课程。</p>
             </div>
           </div>
         </div>
